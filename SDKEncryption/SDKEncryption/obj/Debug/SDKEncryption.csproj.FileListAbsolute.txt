@@ -1,0 +1,14 @@
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.exe.config
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.csprojResolveAssemblyReference.cache
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.exe
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.pdb
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.exe
+c:\users\xenia_k\documents\visual studio 2015\Projects\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.pdb
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.exe.config
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.exe
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.pdb
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.exe
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\bin\Debug\SDKEncryption.pdb
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ggershonovich\Desktop\Security\.NetEncryption\SDKEncryption\SDKEncryption\obj\Debug\SDKEncryption.csprojResolveAssemblyReference.cache
