@@ -11,6 +11,7 @@ It does not apply to VisitorIDs that are generated on the client side.
 * [PHP](https://github.com/optimoveproductintegration/Reporting-Encrypted-CustomerID/tree/master/phpEncryption)
 
 **Note**: You can use additional server-side programming languages. The above are only examples.
+
 3.	Use the encrypted CustomerID in all SDK calls implemented
 4.	Optimove will perform the decryption and process the events
 
