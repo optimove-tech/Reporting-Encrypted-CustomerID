@@ -7,7 +7,7 @@ It does not apply to VisitorIDs that are generated on the client side.
 1.	Request an encryption key from the Optimove Product Integration Team
 2.	Implement CustomerID encryption on the customer server side, as shows in the encryption examples:
 * [.NET](https://github.com/optimoveproductintegration/Reporting-Encrypted-CustomerID/tree/master/JSEncryption/EncryptionJSApp)
-* [NodeJS](https://github.com/optimoveintegrationoptitrack/web-sdk-encryption/tree/master/JSEncryption/EncryptionJSApp)
+* [NodeJS](https://github.com/optimoveintegrationoptitrack/web-sdk-encryption/tree/master/SDKEncryption)
 * [PHP](https://github.com/optimoveproductintegration/Reporting-Encrypted-CustomerID/tree/master/phpEncryption)
 
 **Note**: You can use additional server-side programming languages. The above are only examples.
