@@ -13,9 +13,10 @@ It does not apply to VisitorIDs that are generated on the client side.
 **Note**: You can use additional server-side programming languages. The above are only examples.
 
 3.	Use the encrypted CustomerID in all SDK calls implemented
-	3.a Please make sure that the encryption value length does not exceed 90 characters.
-4.	Optimove will perform the decryption and process the events
+5.	Optimove will perform the decryption and process the events
 
 ## **The encryption method we use:**
 * Authenticated encryption using CBC encryption with initialization vector and HMAC for the authenticating the message.
 * HMAC – Hash-based message authentication code https://en.wikipedia.org/wiki/Hash-based_message_authentication_code 
+* Please make sure that the encryption value length does not exceed 90 characters.
+
