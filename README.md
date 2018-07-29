@@ -10,12 +10,13 @@ This functionality applies only to SDK_IDs that are generated on the server side
 * [PHP](https://github.com/optimoveproductintegration/Reporting-Encrypted-CustomerID/tree/master/phpEncryption)
 
 >**Note:** 
-> You can use additional server-side programming languages. The above are only examples.
+> - You can use additional server-side programming languages. The above are only examples.
+> - Before encryption, the SDK_IDs length supports up to 90 characters only.
+
 
 3.	Use the encrypted SDK_IDs in all SDK calls implemented
 5.	Optimove will perform the decryption and process the events
 
 ## **The encryption method we use:**
 * Authenticated encryption using CBC encryption with initialization vector and HMAC for the authenticating the message.
-* HMAC – Hash-based message authentication code https://en.wikipedia.org/wiki/Hash-based_message_authentication_code 
-* Before encryption, the SDK_IDs length supports up to 90 characters only.
+* [HMAC – Hash-based message authentication code](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code) 
