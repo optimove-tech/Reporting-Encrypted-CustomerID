@@ -12,9 +12,10 @@ This functionality applies only to SDK_IDs that are generated on the server side
 * [PHP](https://github.com/optimoveproductintegration/Reporting-Encrypted-CustomerID/tree/master/phpEncryption)
 
 >**Note:** 
-> - You can use additional server-side programming languages. The above are only examples.
 > - Before encryption, the SDK_IDs length supports up to 90 characters only.
-> - The encrypted SDK_ID must be in a string format
+> - The encrypted SDK_ID must be in a string format.
+> - Any encrypted SDK_ID that does not correspond to your Optimove unique identifier (Customer ID) due to faulty / unrecognized SDK_IDs will not be excluded from your customer tracked activity. Therefore please make sure that the encrypted SDK_ID sent via the SDK is a recognizable ID.
+> - You can use additional server-side programming languages. The above are only examples.
 
 
 3.	Pass the encrypted SDK_IDs into the setUserId() function in [Web SDK](https://github.com/optimove-tech/Web-SDK-Integration-Guide), [iOS SDK](https://github.com/optimove-tech/iOS-SDK-Integration-Guide) or [Android SDK](https://github.com/optimove-tech/Android-SDK-Integration-Guide)
