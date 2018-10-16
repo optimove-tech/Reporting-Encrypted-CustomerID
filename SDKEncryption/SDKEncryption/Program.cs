@@ -72,9 +72,8 @@ namespace EncryptionApp
                     Mode = CipherMode.CBC,
                     Padding = PaddingMode.PKCS7
                 })
-                {
-                    aes.GenerateIV();
-                    iv = aes.IV;
+                {                    
+                    iv = Encoding.UTF8.GetBytes("staticivstaticiv"); 
                     using (var encrypter = aes.CreateEncryptor(cryptKey, iv))
                     using (var cipherStream = new MemoryStream())
                     {

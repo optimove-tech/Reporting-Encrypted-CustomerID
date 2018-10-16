@@ -1,10 +1,13 @@
 var crypto = require('crypto')
+var encoding = require("encoding");
+	
 var algorithm = 'aes-256-cbc'
 var hmacBytesLen = 32;
 var ivByteLen=16;
 
 function encrypt(text, keybuf) {
-    var ivbuf = crypto.randomBytes(ivByteLen);
+	
+	var ivbuf = encoding.convert("staticivstaticiv");
     var cipher = crypto.createCipheriv(algorithm,keybuf, ivbuf);
     var encrypted = Buffer.concat([cipher.update(text, 'utf8'), cipher.final()]);
     var resBuffer =  Buffer.concat([ivbuf, encrypted]);
@@ -41,5 +44,6 @@ var databuf = new Buffer(data);
 
 var ciphertext = encrypt(data, keybuf);
 var decrypted = decrypt(ciphertext, keybuf);
+
 
 

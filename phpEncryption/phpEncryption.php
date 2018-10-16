@@ -4,8 +4,8 @@ $ivByteLen=16;
 $algo = 'aes-256-cbc';
 
 function encrypt($message, $key) {
-
-    $iv = openssl_random_pseudo_bytes($GLOBALS['ivByteLen']);
+		   
+    $iv =  "staticivstaticiv"; 
     $iv64 = base64_encode($iv);
     $hmacAlgo = 'sha256';
 
